@@ -1,0 +1,11 @@
+.header{
+  height: 20vh;
+  width: 100vw;
+  background-color: rgb(195, 235, 235);
+}
+
+.footer{
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(241, 206, 163);
+}
