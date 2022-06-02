@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  background-color: rgb(218, 241, 195);
+  width: 300px;
+  height: 100vh;
+}
+
+.main-display {
+  background-color: rgb(182, 189, 189);
+  width: calc(100vw - 300px);
+}
+
+.side-bar-frame {
+display: flex;
+justify-content: center;
+padding-top: 100px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 20px 0;
+  font-size: 25px;
+}
