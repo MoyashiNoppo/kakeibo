@@ -1,0 +1,27 @@
+.main{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.flame{
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list{
+  /* background-color: blue; */
+}
+
+.btn{
+  /* background-color: aquamarine; */
+}
+
+li {
+  font-size: 20px;
+  padding: 20px;
+}
