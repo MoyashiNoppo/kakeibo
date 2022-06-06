@@ -1,0 +1,8 @@
+<div class = "main"> 
+  変動費の記入ページ<%= form_with(model: @new_variablecost, local: true) do |f|%>
+    <%= f.date_field :day, class:"text input_daytime", placeholder:"月" %>
+    <%# <%= f.collection_select(:genre_id, Genrevariable.all, :id, :name, {},{class:"text genre-select"}) %>
+    <%= f.text_field :price, class:"text input_price", placeholder:"金額" %>
+    <%= f.text_area :memo, class:"text input_memo", placeholder: "備考", rows: "10" %>
+    <% end %>
+</div>
