@@ -1,0 +1,14 @@
+<div class = "main">
+    <div class="flame">
+      <%= form_with(model: @fixedcost, local: true) do |f|%>
+      <div class="list">
+        <ul>
+          <li>ジャンル:<%= f.collection_select(:genre_id, Genrefixed.all, :id, :name, {},{class:"genre"})%></li>
+          <li>金額:<%= f.text_field :price, class:"price", placeholder:"金額" %></li>
+          <li>メモ:<%= f.text_area :memo, class:"memo", placeholder: "備考", rows: "3" %></li>
+        </ul>
+      </div>
+      <div class ="btn"><%= f.submit "記入する", class: "input_btn" %></div>
+    </div>
+    <% end %>
+</div>
