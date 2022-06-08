@@ -1,0 +1,15 @@
+<div class = "main">
+    <div class="flame">
+      <%= form_with(model: @variablecost, local: true) do |f|%>
+      <div class="list">
+        <ul>
+          <li>日付:<%= f.date_field :day, class:"daytime", placeholder:"月" %></li>
+          <li>給料:<%= f.text_field :salary, class:"salaly", placeholder:"金額" %></li>
+          <li>その他:<%= f.text_field :other, class:"other", placeholder:"金額" %></li>
+          <li>メモ:<%= f.text_area :memo, class:"memo", placeholder: "備考", rows: "3" %></li>
+        </ul>
+      </div>
+      <div class ="btn"><%= f.submit "記入する", class: "input_btn" %></div>
+    </div>
+    <% end %>
+</div>
