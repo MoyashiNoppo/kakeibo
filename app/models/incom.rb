@@ -1,0 +1,2 @@
+class Incom < ApplicationRecord
+end
