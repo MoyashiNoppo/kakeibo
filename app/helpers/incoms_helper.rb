@@ -1,0 +1,2 @@
+module IncomsHelper
+end

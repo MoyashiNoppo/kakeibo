@@ -1,4 +1,4 @@
-class IncomController < ApplicationController
+class IncomsController < ApplicationController
   def new
     @incom = Incom.new
   end
